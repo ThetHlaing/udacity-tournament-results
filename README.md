@@ -1,6 +1,8 @@
 # udacity-tournament-results
 
 Creating Database
+-----------------
+
 Before you can run your code or create your tables, you'll need to use the create database command in psql to create the database. 
 Use the name tournament for your database.
 
@@ -11,5 +13,6 @@ Paste each statement in to psql.
 Use the command \i tournament.sql to import the whole file into psql at once.
 
 Running project!
+----------------
 
 To run the series of tests defined in this test suite, run the program from the command line $ python tournament_test.py 
