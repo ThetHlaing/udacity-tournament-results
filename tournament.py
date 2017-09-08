@@ -13,6 +13,7 @@ def connect():
     return db,cursor
 
 def execute(query,para=None):
+    """Executing the query without returning the result"""
     db,db_cursor = connect()
     if para == None:
         db_cursor.execute(query);
@@ -23,6 +24,7 @@ def execute(query,para=None):
 
 
 def fetch_data(query, para=None):
+    """Executing the query and return the result values"""
     db,db_cursor = connect()
     if para == None:
         db_cursor.execute(query)
